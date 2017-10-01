@@ -1,0 +1,10 @@
+Compile:
+  $make all
+
+Run:
+  $./ep2 <track_lenght> <lap_count> <cyclist_count>
+
+Folders:
+  src: .c source files
+  inc: .h header files
+  obj: .o object files
