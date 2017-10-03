@@ -1,10 +1,11 @@
+EP2 - MAC0422 SISTEMAS OPERACIONAIS
+Guilherme Feulo do Espirito Santo	6431749
+Sergio Rosendo				xxxxxxx
+
 Compile:
-  $make all
+  $make 
 
 Run:
-  $./ep2 <track_lenght> <lap_count> <cyclist_count>
+  $./ep2 <track_lenght> <lap_count> <cyclist_count> [-d]
 
-Folders:
-  src: .c source files
-  inc: .h header files
-  obj: .o object files
+-d ativa o modo debug que imprime o estado da pista a cada 60ms (20 ms nas duas últimas voltas).
